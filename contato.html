@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Ínicio</a></li>
+          <li><a href="sobre.html">Sobre a clínica</a></li>
+          <li><a href="horario.html">Horário de Atendimento</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header" align="center">
+          <img
+            src="imagens/logoContato.png"
+            height="140"
+            alt="Logo contato da Clínica Estética"
+          />
+        </div>
+
+        <div class="content" align="center">
+          <h1 style="color: rgb(212, 9, 219)"><strong>Contato</strong></h1>
+          <p>Fale com a gente e agende seu atendimento</p>
+          <hr />
+          <h2>
+            <strong><u>Telefones</u></strong>
+          </h2>
+          <p><strong>Telefone:</strong> (11) 3333-0000</p>
+          <p><strong>WhatsApp:</strong> (11) 9 9999-0000</p>
+          <p><strong>E-mail:</strong> contato@clinicaexemplo.com</p>
+          <hr />
+          <h2>
+            <strong><u>Endereço</u></strong>
+          </h2>
+          <p>Rua das Acácias, 560 – Bairro Jardim Aurora</p>
+          <p>São Paulo – SP – Brasil</p>
+          <p>CEP: 04567-890</p>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467695.6198481794!2d-47.219134973032176!3d-23.680533967477075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1770691613634!5m2!1spt-BR!2sbr"
+            width="400"
+            height="300"
+            style="border: 0; border-radius: 8px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização da Clínica no Google Maps"
+          ></iframe>
+          <!-- vou usart GET no lugar de POST para não ocorrer o erro ao tentar enviar o formulário -->
+          <form action="#" method="get">
+            <fieldset>
+              <legend><strong>Formulário de contato</strong></legend>
+
+              <table align="center" cellpadding="8">
+                <tr>
+                  <td><label>Nome:</label></td>
+                  <td><label>E-mail:</label></td>
+                  <td><label>Assunto:</label></td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      id="nome"
+                      name="nome"
+                      size="20"
+                      required
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      size="20"
+                      required
+                    />
+                  </td>
+                  <td>
+                    <input type="text" id="assunto" name="assunto" size="20" />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td colspan="3">
+                    <label for="mensagem">Mensagem:</label><br />
+                    <textarea
+                      id="mensagem"
+                      name="mensagem"
+                      rows="5"
+                      cols="80"
+                      required
+                    ></textarea>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td colspan="3" align="center">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="footer">
+          <table width="100%">
+            <tr>
+              <td width="50%" valign="top">
+                <h3>Endereço</h3>
+                <p>Rua das Acácias, 560 – Bairro Jardim Aurora</p>
+                <p>São Paulo – SP – Brasil</p>
+                <p>CEP: 04567-890</p>
+              </td>
+
+              <td width="50%" valign="top">
+                <h3>Contato</h3>
+                <p>E-mail: contato@clinicaexemplo.com</p>
+                <p>Telefone: (11) 3333-0000</p>
+                <p>WhatsApp: (11) 9 9999-0000</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

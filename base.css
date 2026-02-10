@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: rgb(221, 198, 220);
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+    border-right: 1px solid rgb(212, 9, 219);
+    padding-right: 25px;
+}
+.header {
+     padding-left: 5px;
+}
+.content {
+    min-height: 300px;
+    padding: 5px;
+}
+.content h1 {
+    margin-top: 0;
+}
+.footer {
+    min-height: 150px;
+    padding-left: 30px;
+}
